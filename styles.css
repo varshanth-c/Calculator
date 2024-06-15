@@ -1,0 +1,45 @@
+body {
+    background-color: #fdf8f8;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.calculator {
+    width: 320px;
+}
+
+.calculator-screen {
+    font-size: 2.5rem;
+    height: 80px;
+    border: none;
+    background-color: #252525;
+    color: rgb(234, 20, 20);
+    box-shadow: inset 0px -3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.calculator-keys button {
+    height: 80px;
+    font-size: 1.5rem;
+}
+
+.calculator-keys .operator {
+    color: black;
+}
+
+.calculator-keys .equal-sign {
+    grid-column: span 2;
+}
+
+.calculator-keys .all-clear {
+    grid-column: span 2;
+}
+.card-body{
+    color :aqua;
+}
+.btn{
+    color :rgb(234, 20, 20);
+    background-color: aqua;
+}
+.card-body{
+    background-color: black;
+}
